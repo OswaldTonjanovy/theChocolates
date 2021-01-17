@@ -1,0 +1,525 @@
+
+  @media(min-width: 789px){
+
+    .App-header {
+      background-color: rgb(66, 207, 218);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+       }
+
+     .log{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 8px;
+        
+      }   
+    .App-menu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: inherit;
+      width: 80vw;
+      align-items: center;
+      margin: 0px;
+    }
+    .raya{
+      color: white;
+      text-decoration: none !important;
+
+  }
+  .active{
+    color: rgb(0, 0, 0) !important;
+    border-bottom: solid 2px white;
+    }
+
+    li{
+      height: 50px;
+      list-style: none;
+      padding: 10px;
+    }
+    li:hover{
+      background-color: white;
+   }
+   .fondo{
+    opacity: 2;
+    transition: opacity 2s;
+     display: flex;
+     padding: 0px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .fondoson{  
+    padding: 0px !important;
+    width: 100vw;
+    height: 500px;
+  }
+  .btn{
+    margin-top: 200px !important;
+
+  }
+  .centertitle{
+    color:white;
+    font-size: 50px !important;
+
+  }
+  .cardContiner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  .homedown{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 800px;
+  }
+  .downcard{
+    margin-top: 80px;
+    height: 300px;
+  }
+  .topCho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('./Images/madera-oscura-pixsic.jpg');
+    height: 150px;
+    
+  }
+  .leftCho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    height: 700px;
+
+
+  }
+  .rightCho{
+    display: flex;
+    justify-content: center;
+    border: solid 0px black !important;
+}
+  .nuestroChocolate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    }
+    .titlecho{ 
+      border-radius: 50px;
+      margin-top: -100px;
+      font-size: 50px;
+      background-color: white;
+      height: 400px;
+      }
+      .cardtwo{
+        width: 25vw;
+        height: 500px;
+      }
+      .btncard{
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 2px rgb(66, 207, 218);
+        width: 90px;
+        height: 40px;
+      }
+      .tarjet{
+        width: 300px;
+        height: 400px;
+      }
+      .titleScho{
+        margin-left: -150px;
+        margin-top: 150px;
+        font-size: 60px;
+      }
+      .minitex{
+        margin-left: -200px !important;
+      }
+      .onechool{
+        background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(./Images/onecurso.jpg);
+        
+        height: 500px;
+      }
+      .twochool{
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.507), rgb(0, 0, 0)), url(./Images/twocurse.jpeg);
+        height: 500px;
+      }
+      .threechool{
+        background-image: black;
+        height: 500px;
+      }
+}
+
+  @media(min-width: 431px){
+    .App-header {
+      background-color: rgb(66, 207, 218);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+       }
+
+     .log{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 8px;
+        
+      }   
+    .App-menu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: inherit;
+      width: 80vw;
+      align-items: center;
+      margin: 0px;
+    }
+    .raya{
+      color: white;
+      text-decoration: none !important;
+
+  }
+    .active{
+    color: rgb(0, 0, 0) !important;
+    border-bottom: solid 2px white;
+    }
+
+    li{
+      height: 50px;
+      list-style: none;
+      padding: 10px;
+    }
+    li:hover{
+      background-color: white;
+   }
+    .fondo{
+    opacity: 2;
+    transition: opacity 2s;
+     display: flex;
+     padding: 0px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+    .fondoson{  
+    padding: 0px !important;
+    width: 100vw;
+    height: 500px;
+  }
+  .btn{
+    margin-top: 200px !important;
+  }
+    .centertitle{
+      color:white;
+      font-size: 40px !important;
+      padding-left: 55px; 
+    }
+    .homecenter{
+      height: 400px;
+    }
+    .cardContiner{
+      display: flex;
+      justify-content: center;  
+    }
+    .homedown{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      background-image: url('./Images/madera-oscura-pixsic.jpg');
+      height: 700px;
+      border: solid 1px;
+      margin-top: 70px;
+    }
+    .titledown{
+      width: 50vw;
+      margin-top: -40px;
+      margin-bottom: 0px;
+      font-size: 50px;  
+    }
+
+
+    .downcard{
+      margin-top: 80px;
+      height: 200px;
+    }
+    .topCho{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-image: url('./Images/madera-oscura-pixsic.jpg');
+      height: 100px;
+    }
+    .titlecho{ 
+      display: flex;
+      flex-direction: column;
+      border-radius: 50px;
+      margin-top: -60px;
+      font-size: 50px;
+      background-color: white;
+      height: 600px;
+      }
+    .leftCho{
+      width: 50%;
+      background-color: black;
+      height: 350px;
+    }
+
+    .rightCho{
+      display: flex;
+      justify-content: center;
+      border: solid 1px black;
+  }
+  .choSelec{
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+  }
+
+    .btncard{
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 2px rgb(66, 207, 218);
+      width: 90px;
+      height: 40px;
+      margin-bottom: 7px;
+    }
+    .favorite{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .titleScho{
+      margin-left: -80px;
+      margin-top: 100px;
+      font-size: 50px;
+    }
+    .minitex{
+      margin-left: -200px;
+    }
+    .onechool{
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(./Images/onecurso.jpg);
+      
+      height: 500px;
+    }
+    .twochool{
+      background: linear-gradient(to left, rgba(0, 0, 0, 0.507), rgb(0, 0, 0)), url(./Images/twocurse.jpeg);
+      height: 500px;
+    }
+    .threechool{
+      background-image: black;
+      height: 500px;
+    }
+  }
+  @media(max-width: 429px){
+
+    .App-header {
+      background-color: rgb(66, 207, 218);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       }
+    .App-menu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: inherit;
+      align-items: center;
+      margin: 0px;
+      }  
+      .log{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif; 
+        width: 100vw;
+      } 
+      li{
+        display: flex;
+        justify-content: center;
+        padding-right: 30px;
+        width: 25vw;
+        height: 50px;
+        list-style: none;
+      }
+      .raya{
+        
+        color: white;
+        text-decoration: none !important;
+  
+    }
+    .fondoson{  
+      padding: 0px !important;
+      width: 100vw;
+      height: 400px;
+    }
+    .btn{
+      margin-top: 340px !important;
+      
+
+    }
+    .centertitle{
+      color:white;
+      font-size: 30px !important;
+      padding-left: 60px; 
+    }
+    .homecenter{
+      height: 600px;
+    }
+    .homedown{
+      background-image: url('./Images/madera-oscura-pixsic.jpg');
+      height: 600px;
+      border: solid 1px;
+      margin-top: 70px;
+    }
+    .titledown{
+      margin-top: -40px;
+      margin-bottom: 0px;
+      font-size: 50px;
+    }
+    .downcard{
+      height: 100px;
+    }
+    .topCho{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-image: url('./Images/madera-oscura-pixsic.jpg');
+      height: 80px;
+    }
+    .titlecho{ 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 50px;
+      margin-top: -50px;
+      font-size: 50px;
+      background-color: white;
+      height: 500px;
+      }
+    .topCho{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .leftCho{
+      width: 100%;
+      background-color: black;
+      height: 150px;
+  
+    }
+    .rightCho{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .choSelec{
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 200px;
+    }
+    .btncard{
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 2px rgb(66, 207, 218);
+      width: 90px;
+      height: 40px;
+      margin-bottom: 7px;
+    }
+    .favorite{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .titleScho{
+      margin-left: -0px;
+      margin-top: 60px;
+      margin-left: 60px;
+      font-size: 50px;
+    }
+    .minitex{
+      margin-left: 10px;
+    }
+    .onechool{
+      background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(./Images/onecurso.jpg);
+      
+      height: 500px;
+    }
+    .twochool{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to left, rgba(0, 0, 0, 0.507), rgb(0, 0, 0)), url(./Images/twocurse.jpeg);
+      height: 500px;
+    }
+  }
+
+
+.raya:hover{
+  color: black;
+}
+.imgOpacity:hover{
+  opacity: 0.5;
+}
+
+.btncard:hover{
+  background-color:rgb(0, 238, 255);
+}
+
+.form-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.oneform{
+  
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+
+}
+
+.btnfrom{
+  background-color: rgb(66, 207, 218);
+  height: 40px;
+  width: 100px;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  height: 30vh; 
+}
+
+
+.tarjet{
+  width: 25vw;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
