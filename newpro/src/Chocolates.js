@@ -44,7 +44,7 @@ export class Chocolates extends React.Component {
                             {this.state.favorite.sabor ? 
                             <div className='favorite'>
                                 <h2 className='texSelec text-center text-black'>Chocolate selecto</h2>
-                                <img className='choSelec' src={this.state.favorite.imagen} />
+                                <img className='choSelec' src={this.state.favorite.imagen} alt="choco"/>
                                 <p className='text-black text-center'><strong>{this.state.favorite.sabor}</strong></p>
                             </div> : <p className='text-center text-black'>No has selecionado aun</p>} 
                         </div>

@@ -14,7 +14,7 @@ export class Showchocolate extends React.Component{
         return(
           
               <div className='cardtwo  border border-dark my-4 mx-4 shadow-lg'>
-                  <img className='img-fluid imgOpacity' src={imagen} />
+                  <img className='img-fluid imgOpacity' src={imagen} alt="choco"/>
                   <div className='d-flex flex-column align-items-center'>
                       <h3 className="mt-2 mb-0">{sabor}</h3>
                       <hr/>
