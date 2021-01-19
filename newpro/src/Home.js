@@ -115,11 +115,8 @@ export class Home extends React.Component{
                           </MDBCol>
                           <MDBCol sm='12'>
                               <p  className='text-center text-white my-4 py-4'>Aprende con nuetros tutoriales a hacer tu propio Chocolate artesanal,
-                              partiendo desde el grano de cacaco. Proceso de seleccion, descascarillado, molido, refinacion, temperado, 
-                                moldeado. Se denomina como “superfluos”. Es decir que su ingesta no es necesaria nutricionalmente,
-                                ya que todos sus nutrientes y componentes (incluidos los que aportan beneficios para la salud) pueden hallarse 
-                                en otros alimentos.  
-                                Reserva tu inscripcion a nuetros a nuetro cursos y talleres y conoce todo acerca del Cacao y Chocolate 
+                              partiendo desde el grano de cacao. Proceso de seleccion, descascarillado, molido, refinacion, temperado, moldeado.
+                                Reserva tu inscripcion a nuetros cursos y talleres y conoce todo acerca del Cacao y Chocolate 
                               </p>
                           </MDBCol>
                       </MDBRow>
