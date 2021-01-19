@@ -30,7 +30,7 @@ imageChange = () => {
       }else if(this.state.contador === 1){
         this.setState({text:'Variedad en Chocolates'})
       }else if(this.state.contador=== 2){
-        this.setState({text:'Apende, Chocolate Artesanal'})
+        this.setState({text:'Aprende, Chocolate Artesanal'})
       }else if(this.state.contador === 3){
         this.setState({text:'Contacta con Nosotros'})
         this.setState({contador: 0})
