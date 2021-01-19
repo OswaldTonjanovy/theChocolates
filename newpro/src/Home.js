@@ -116,7 +116,7 @@ export class Home extends React.Component{
                           <MDBCol sm='12'>
                               <p  className='text-center text-white my-4 py-4'>Aprende con nuetros tutoriales a hacer tu propio Chocolate artesanal,
                               partiendo desde el grano de cacao. Proceso de seleccion, descascarillado, molido, refinacion, temperado, moldeado.
-                                Reserva tu inscripcion a nuetros cursos y talleres y conoce todo acerca del Cacao y el Chocolate 
+                                Reserva tu inscripcion a nuetros cursos y talleres y conoce todo acerca del Cacao y el  Chocolate 
                               </p>
                           </MDBCol>
                       </MDBRow>
